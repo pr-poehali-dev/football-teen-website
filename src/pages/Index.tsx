@@ -19,7 +19,7 @@ export default function Index() {
               <span className="text-primary block mt-2">Роман</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto">
-              Мне 15 лет, и я увлекаюсь футболом. Добро пожаловать на мой персональный сайт!
+              Мне 15 лет. Я умный, позитивный и заботливый человек. Добро пожаловать на мой персональный сайт!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button size="lg" className="min-w-[160px]">
@@ -52,8 +52,9 @@ export default function Index() {
                 </h3>
                 <div className="space-y-3 text-gray-600 leading-relaxed">
                   <p><span className="font-medium">Возраст:</span> 15 лет</p>
-                  <p><span className="font-medium">Интересы:</span> Футбол, спорт, активный образ жизни</p>
-                  <p><span className="font-medium">Цели:</span> Развитие в футболе и получение качественного образования</p>
+                  <p><span className="font-medium">Характер:</span> Умный, позитивный, заботливый</p>
+                  <p><span className="font-medium">Хобби:</span> Футбол, чтение, общение с друзьями</p>
+                  <p><span className="font-medium">Цели:</span> Развитие личности и получение качественного образования</p>
                 </div>
               </div>
 
@@ -64,10 +65,10 @@ export default function Index() {
                 </h3>
                 <div className="grid grid-cols-2 gap-4">
                   {[
-                    { label: "Целеустремленность", icon: "Zap" },
-                    { label: "Командная работа", icon: "Users" },
-                    { label: "Дисциплина", icon: "Clock" },
-                    { label: "Активность", icon: "Activity" }
+                    { label: "Умный", icon: "Brain" },
+                    { label: "Позитивный", icon: "Sun" },
+                    { label: "Заботливый", icon: "Heart" },
+                    { label: "Общительный", icon: "Users" }
                   ].map((quality, index) => (
                     <div
                       key={index}
@@ -88,26 +89,26 @@ export default function Index() {
                     <div className="p-3 bg-primary/20 rounded-full mr-4">
                       <Icon name="Trophy" size={28} className="text-primary" />
                     </div>
-                    <h3 className="text-2xl font-semibold text-gray-900">Футбол</h3>
+                    <h3 className="text-2xl font-semibold text-gray-900">Мои увлечения</h3>
                   </div>
                   
                   <p className="text-gray-600 mb-6 leading-relaxed">
-                    Футбол — это моя страсть! Я активно тренируюсь, участвую в соревнованиях 
-                    и постоянно работаю над улучшением своих навыков.
+                    Я разносторонняя личность с множеством интересов. Люблю футбол, 
+                    читать интересные книги и проводить время с друзьями.
                   </p>
 
                   <div className="space-y-4">
                     <div className="flex items-center">
                       <Icon name="MapPin" size={18} className="text-primary mr-3" />
-                      <span className="text-gray-600">Тренировки 4 раза в неделю</span>
+                      <span className="text-gray-600">Играю в футбол 2 раза в неделю</span>
                     </div>
                     <div className="flex items-center">
-                      <Icon name="Calendar" size={18} className="text-primary mr-3" />
-                      <span className="text-gray-600">Опыт игры: 3 года</span>
+                      <Icon name="BookOpen" size={18} className="text-primary mr-3" />
+                      <span className="text-gray-600">Люблю читать книги</span>
                     </div>
                     <div className="flex items-center">
-                      <Icon name="Star" size={18} className="text-primary mr-3" />
-                      <span className="text-gray-600">Позиция: полузащитник</span>
+                      <Icon name="Users" size={18} className="text-primary mr-3" />
+                      <span className="text-gray-600">Общение с друзьями</span>
                     </div>
                   </div>
                 </CardContent>
@@ -115,9 +116,9 @@ export default function Index() {
 
               <div className="grid grid-cols-3 gap-4">
                 {[
-                  { icon: "Heart", label: "Страсть", color: "text-red-500" },
-                  { icon: "Lightbulb", label: "Креатив", color: "text-yellow-500" },
-                  { icon: "Shield", label: "Надежность", color: "text-green-500" }
+                  { icon: "Brain", label: "Интеллект", color: "text-blue-500" },
+                  { icon: "Sun", label: "Позитив", color: "text-yellow-500" },
+                  { icon: "Heart", label: "Забота", color: "text-red-500" }
                 ].map((trait, index) => (
                   <Card key={index} className="p-4 text-center hover:shadow-md transition-shadow">
                     <CardContent className="p-0">
@@ -151,7 +152,7 @@ export default function Index() {
           </div>
           
           <h3 className="text-2xl font-bold mb-2">Роман</h3>
-          <p className="text-gray-400 mb-6">Юный футболист с большими мечтами</p>
+          <p className="text-gray-400 mb-6">Умный и позитивный подросток с большими планами</p>
           
           <div className="border-t border-gray-800 pt-6">
             <p className="text-gray-500 text-sm">© 2024 Роман. Все права защищены.</p>
