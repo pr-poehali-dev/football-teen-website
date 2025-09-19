@@ -10,13 +10,13 @@ export default function Index() {
         <div className="mx-auto max-w-4xl text-center">
           <div className="animate-fade-in">
             <img
-              src="/img/aa001e8c-4ac3-4152-9f93-5ff14af73b55.jpg"
+              src="/img/1ff0b30a-42fa-4138-9189-34cf069dd849.jpg"
               alt="Портрет"
               className="mx-auto h-32 w-32 rounded-full object-cover shadow-lg ring-4 ring-white mb-8"
             />
             <h1 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl mb-6">
               Привет! Меня зовут
-              <span className="text-primary block mt-2">Александр</span>
+              <span className="text-primary block mt-2">Роман</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto">
               Мне 15 лет, и я увлекаюсь футболом. Добро пожаловать на мой персональный сайт!
@@ -150,11 +150,11 @@ export default function Index() {
             ))}
           </div>
           
-          <h3 className="text-2xl font-bold mb-2">Александр</h3>
+          <h3 className="text-2xl font-bold mb-2">Роман</h3>
           <p className="text-gray-400 mb-6">Юный футболист с большими мечтами</p>
           
           <div className="border-t border-gray-800 pt-6">
-            <p className="text-gray-500 text-sm">© 2024 Александр. Все права защищены.</p>
+            <p className="text-gray-500 text-sm">© 2024 Роман. Все права защищены.</p>
           </div>
         </div>
       </footer>
